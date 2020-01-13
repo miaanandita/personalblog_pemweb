@@ -9,7 +9,7 @@
     <title>Login Page</title>
 </head>
 <body>
-    <h1>SISTEM INFROMASI UNS</h1>
+    <h1>SISTEM INFROMASI UNS NICH</h1>
     <h2>Login Form</h2>
     <form method="POST" action="login.php">
         <label>Username:</label> <input type="text" value="<?php if (isset($_COOKIE["user"])){echo $_COOKIE["user"];}?>"name="username">
